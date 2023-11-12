@@ -39,6 +39,7 @@ a, a:hover{
 .btn-transparent{
     border: 1px solid #fff;
 }
+/*header*/
 header{
     position: absolute;
     top: 0;
@@ -135,4 +136,38 @@ img{
 }
 .header-social ul li a:hover i{
        color:#01ca;
+}
+/*Banner*/
+.banner{
+    background-position: 50% 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 16em 0 14em 0;
+    box-shadow: -5px -5px 30px 5px #e1f3ff 5px 5px 30px 5px #e1f3ff ;
+}
+.banner-content{
+    width: 80%;
+}
+.banner-content h1{
+    color: #fff;
+    font-size: 80px;
+    font-weight: 800;
+    margin-top: 10px;
+    line-height: 80px;
+}
+.service{
+    border-radius: 10px;
+    background:#ffffff45 ;
+    border: 1px solid #ffffff45 ;
+    margin-top: 100px;
+}
+.service a{
+    display: inline-block;
+    width: 33%;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 800;
+    border-right: 1px solid #fff;
+    padding: 34px 20px;
+    
 }
