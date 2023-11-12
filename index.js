@@ -1,4 +1,4 @@
-var header=document.getElementsByTagName("header");
+/*var header=document.getElementsByTagName("header");
 window.onscroll=function() {scrollFunction()};
 
 function scrollFunction(){
@@ -8,4 +8,5 @@ function scrollFunction(){
     else{
        header[0].removeAttribute("class");
     }
-}
+}*/
+alert(hai);

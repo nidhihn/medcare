@@ -39,7 +39,7 @@ a, a:hover{
 .btn-transparent{
     border: 1px solid #fff;
 }
-/*header*/
+/*----------header--------------*/
 header{
     position: absolute;
     top: 0;
@@ -137,7 +137,7 @@ img{
 .header-social ul li a:hover i{
        color:#01ca;
 }
-/*Banner*/
+/*----------------Banner----------------*/
 .banner{
     background-position: 50% 0;
     background-size: cover;
@@ -169,5 +169,37 @@ img{
     font-weight: 800;
     border-right: 1px solid #fff;
     padding: 34px 20px;
+    margin: 0 -2px;
+    height: 180px;
+    vertical-align:top ;
     
+}
+.service a:last-child{
+    border-right: none;
+    background-image: url(../med/images/card4.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 34.2%;
+}
+.service-content{
+    width: calc(100% - 47px);
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+}
+.service-content::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    background: #fff;
+    height: 2px;
+    width: 0;
+    transition: 0.2s ease-in-out;
+}
+.service-content:hover::before{
+    width: 50%;
 }
