@@ -165,13 +165,13 @@ img{
     display: inline-block;
     width: 33%;
     color: #fff;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 800;
     border-right: 1px solid #fff;
     padding: 34px 20px;
     margin: 0 -2px;
     height: 180px;
-    vertical-align:top ;
+    vertical-align:top;
     
 }
 .service a:last-child{
@@ -200,6 +200,50 @@ img{
     width: 0;
     transition: 0.2s ease-in-out;
 }
-.service-content:hover::before{
+.service a:hover .service-content::before{
     width: 50%;
+}
+.service-btn{
+    width: 40px;
+    display: inline-block;
+    height: 40px;
+    background: #ffffff45;
+    border-radius: 50%;
+    position: relative;
+    vertical-align: middle;
+}
+.service-btn i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 0.2s ease-in-out;
+}
+.service a:hover .service-btn i{
+    transform: rotate(-40deg);
+    top: 26%;
+    left: 32%;
+}
+.service-icon{
+    font-size: 40px;
+    margin-top: 22px;
+}
+.call{
+    display: inline-block;
+    width: 40px;
+    vertical-align: middle;
+}
+.call-number{
+    width:calc(100% -54px);
+    display: inline-block;
+    vertical-align: middle;   
+}
+.call-number p{
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.call-number h3{
+    margin: 0;
+    font-weight: 600;
+    letter-spacing: 1px;
 }
