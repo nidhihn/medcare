@@ -278,4 +278,17 @@ img{
     width: 33%;
     margin-left: -4px;
     color: #fff;
+    font-weight: 600;
+    font-size: 15px;
+}
+.btn-white{
+    background: #fff;
+    color:#01ca8b;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    padding: 4px 10px;
+}
+.btn-white i{
+   margin-right: 4px; 
 }
