@@ -247,3 +247,11 @@ img{
     font-weight: 600;
     letter-spacing: 1px;
 }
+.work{
+    position: relative;
+    margin-top: -80px;
+}
+.hours{
+    background:#ffffff45 ;
+    border-radius: 10px;
+}
