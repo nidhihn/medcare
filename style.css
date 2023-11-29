@@ -160,6 +160,7 @@ img{
     background:#ffffff45 ;
     border: 1px solid #ffffff45 ;
     margin-top: 100px;
+    display: flex;
 }
 .service a{
     display: inline-block;
@@ -252,7 +253,7 @@ img{
     margin-top: -80px;
 }
 .hours{
-    background:#ffffff45 ;
+    background:#ffffff45;
     border-radius: 10px;
     padding: 40px 50px;
 }
