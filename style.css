@@ -307,3 +307,20 @@ img{
     border-bottom-right-radius: 10px;
     transition: 0.4s ease-in-out;
 }
+.response a:hover .response-bg{
+    transform: scale(1.04);
+}
+.response-content{
+    padding: 90px 30px 30px;
+    text-align: left;
+    clip-path: polygon(0 0, 100% 20%, 100% 100%, 0% 100%);
+    background: #fff;
+    position: relative;
+    margin-top: -70px;
+}
+.response-icon i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
