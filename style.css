@@ -325,6 +325,7 @@ img{
     position: absolute;
     top: 0;
     left: 0;
+    z-index: 1;
 }
 .response-icon i{
     position: absolute;
@@ -333,4 +334,34 @@ img{
     transform: translate(-50%,-50%);
     color: #fff;
     font-size: 30px;
+}
+.response-content h2{
+    color: #000;
+    font-weight: 800;
+    line-height: 36px;
+}
+.response-content p{
+    color: #8b8b8b;
+    font-size: 15px;
+    margin: 24px 0 0;
+}
+.read-more{
+    border: none;
+    outline: none;
+    background: transparent;
+    color:#61A3BA;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: 0.2s ease-in-out;
+}
+.read-more i{
+    margin-left: 4px;
+    transition: 0.2s ease-in-out;
+}
+.response a:hover .read-more{
+    color: #000;
+}
+.response a:hover .read-more i{
+     color: #61A3BA;
+     margin-left: 6px;
 }
