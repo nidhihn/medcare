@@ -26,6 +26,8 @@ a, a:hover{
     border: 1px solid #61A3BA;
     box-shadow: 0 0 0 4em #61A3BA inset ;
     transition: all 350ms ease;
+    margin-left: 250px;
+    margin-top: 45px;
 }
 .btn-green i{
     margin-right: 6px;
@@ -364,4 +366,25 @@ img{
 .response a:hover .read-more i{
      color: #61A3BA;
      margin-left: 6px;
+}
+/*---------------------------Services----------------------*/
+h2 {
+    color: #3498db;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.Available {
+    background-color: #61A3BA;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
