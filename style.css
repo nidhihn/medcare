@@ -51,6 +51,7 @@ header{
     z-index: 1;
     width: 100%;
     border-bottom: 1px solid #fff;
+    background: #000;
 
 }
 .header-active{
@@ -58,7 +59,7 @@ header{
     background: #000;
     z-index: 1;
     top: 0;
-    animation-name:example;
+    animation-name: example;
     animation-duration: 0.8s;
 }
 img{
@@ -72,16 +73,16 @@ img{
 }
 .logo{
     display: inline-block;
-    
+    /* padding-right: 30px; */
     
 }
 .menu{
     display: inline-block;
 }
 .menu ul{
-    padding: 10;
-    margin: 10;
-    margin-bottom: 80px;
+    padding: 0;
+    margin: 0;
+    /* margin-bottom: 80px; */
 }
 .menu ul li {
     display: inline-block;
